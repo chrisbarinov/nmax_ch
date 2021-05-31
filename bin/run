@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'nmax_ch'
+
+if ARGV.length == 0
+  puts "Введите число N"
+  return
+end
+
+work = WorkGem.new(ARGV[0].to_i)
+work.print_array
