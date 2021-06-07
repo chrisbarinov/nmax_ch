@@ -7,5 +7,5 @@ if ARGV.length == 0
   return
 end
 
-work = WorkGem.new(ARGV[0].to_i)
+work = WorkGem.new(ARGV[0].to_i, STDIN)
 work.print_array
